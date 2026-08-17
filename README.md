@@ -1,3 +1,21 @@
+# IFT542 Practical Assignment -- Student Registration Web Application -- 2021/1/84369CF
+
+A PHP/MySQL student registration app built to demonstrate identifying, exploiting-in-principle, and remediating common web vulnerabilities (SQL injection, XSS, CSRF, SSRF, broken access control, weak auth) as required by the assignment brief.
+
+## Folder structure
+
+- ift542_student_registration_2021-1-84369CF/
+  - docs/ — ethics statement and incident response runbook
+  - evidence/before_after/ — vulnerability write-ups with before/after fixes (SQL injection, password storage, XSS, CSRF, SSRF, security misconfiguration)
+  - migrations/ — database schema and seed script
+  - public/ — web-accessible entry points (login, register, courses, profile, upload, etc.)
+  - src/ — core application logic (auth, CSRF protection, DB access, env loading, logging, repository layer, input validation, security headers)
+  - tests/ — test scripts
+  
+## Setup
+
+(keep your existing setup instructions below this)
+
 # Student Registration Web Application — IFT542 Practical Assignment
 
 A minimal PHP/MySQL implementation used as the basis for Tasks 1–3: STRIDE threat modeling,
